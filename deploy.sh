@@ -47,7 +47,7 @@ cd ../..
 # Step 4: 나머지 전체 인프라 배포
 echo "🏗️ [Step 4] 전체 AWS 인프라를 구성/업데이트합니다..."
 cd Terraform
-terraform apply -auto-approve
+terraform apply -auto-approve 
 cd ..
 
 echo "------------------------------------------------"
